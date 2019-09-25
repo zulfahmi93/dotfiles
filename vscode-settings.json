@@ -1,19 +1,42 @@
 {
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 12,
-    "editor.minimap.maxColumn": 140,
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.showSlider": "always",
-    "git.autofetch": true,
-    "mssql.connections": [
-        {
-            "connectionString": "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=sapura-niu;Integrated Security=SSPI;AttachDBFilename=D:\\home\\desktop\\niu\\db.mdf",
-            "profileName": "sapura-niu",
-            "password": ""
-        }
-    ],
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
-    "window.newWindowDimensions": "inherit",
-    "workbench.iconTheme": "vscode-icons"
+  // General settings.
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.minimap.maxColumn": 140,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [120],
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "search.smartCase": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+  "window.newWindowDimensions": "inherit",
+  "workbench.iconTheme": "vscode-icons",
+  "zenMode.fullScreen": false,
+
+  // Extensions settings.
+  "mssql.connections": [
+    {
+      "connectionString": "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=sapura-niu;Integrated Security=SSPI;AttachDBFilename=D:\\home\\desktop\\niu\\db.mdf",
+      "profileName": "sapura-niu",
+      "password": ""
+    }
+  ],
+
+  // Language settings.
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "[dart]": {
+    "editor.rulers": [80]
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  }
 }
