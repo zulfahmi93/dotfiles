@@ -1,0 +1,78 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "profiles":
+  [
+      // Windows PowerShell (the one bundle with Windows).
+      {
+          "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+          "name": "Windows PowerShell",
+          "commandline": "powershell.exe",
+          "hidden": true
+      },
+      // Command Prompt.
+      {
+          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+          "name": "cmd",
+          "commandline": "cmd.exe",
+          "hidden": true
+      },
+      // PowerShell Core.
+      {
+          "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+          "hidden": false,
+          "name": "PowerShell Core",
+          "source": "Windows.Terminal.PowershellCore",
+          "colorScheme": "AdventureTime",
+          "fontFace": "Fira Code",
+          "fontSize": 9,
+          "historySize": 30000,
+          "useAcrylic": true,
+          "acrylicOpacity": 0.75
+      },
+      // Azure.
+      {
+          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+          "hidden": false,
+          "name": "Azure Cloud Shell",
+          "source": "Windows.Terminal.Azure",
+          "fontFace": "Fira Code",
+          "fontSize": 9,
+          "historySize": 30000
+      },
+      // WSL.
+      {
+          "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+          "hidden": false,
+          "name": "Ubuntu",
+          "source": "Windows.Terminal.Wsl",
+          "fontFace": "Fira Code",
+          "fontSize": 9,
+          "historySize": 30000
+      }
+  ],
+  "schemes": [
+      {
+          "name": "AdventureTime",
+          "black": "#050404",
+          "red": "#bd0013",
+          "green": "#4ab118",
+          "yellow": "#e7741e",
+          "blue": "#0f4ac6",
+          "purple": "#665993",
+          "cyan": "#70a598",
+          "white": "#f8dcc0",
+          "brightBlack": "#4e7cbf",
+          "brightRed": "#fc5f5a",
+          "brightGreen": "#9eff6e",
+          "brightYellow": "#efc11a",
+          "brightBlue": "#1997c6",
+          "brightPurple": "#9b5953",
+          "brightCyan": "#c8faf4",
+          "brightWhite": "#f6f5fb",
+          "background": "#1f1d45",
+          "foreground": "#f8dcc0"
+      }
+  ],
+  "keybindings": []
+}
